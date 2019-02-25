@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700,900|Roboto:400,700');
+
+/* Global */
+
+body {
+font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+
+textarea, select, input, button { outline: none; }
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+
+}
+
+h1 {
+	font-size: 35pt;
+	text-transform:uppercase;
+	color: #EB5757;
+	padding-bottom: 5px;
+}
+
+h2 {font-size: 20pt;
+text-transform:uppercase;
+color: #EB5757;
+}
+
+h3 {font-size: 20pt;
+text-transform:uppercase;
+}
+
+h4 {
+	font-size: 11pt;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.01em;
+}
+	
+/* Layout */	
+
+.header {
+	padding-top: 50px;
+	}
+	
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+	padding: 0 10%;
+}
+
+.backgroundWash {
+	height: 500px;
+	width: 100%;
+	background-color: #000;
+	position: absolute;
+	z-index: -10;
+}
+
+.header {
+	text-align: center;
+	color: #fff;
+}
+
+.omniSearch {
+	margin: 50px 0;
+	height: 60px;
+	border-radius: 40px;
+	width: 700px;
+	text-align: center;
+	font-size: 20pt;
+	border: 3px solid #000;
+}
+
+.omniSearch:focus, .omniSearch:hover{
+	border: 3px solid #EB5757;
+}
+
+.container {
+	background-color: #fff;
+	margin: 10px;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.container_filters {
+	width: 250px;
+	padding: 10px;
+
+}
+.container_entries {
+	flex-grow: 1;
+
+}
+
+#position {
+font-family: 'Raleway';
+font-size: 12pt;
+}
